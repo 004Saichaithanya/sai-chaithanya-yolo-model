@@ -1,0 +1,86 @@
+body {
+  background-color: #1c1c1c;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.upload-container {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.drop-area {
+  border: 2px dashed #aaa;
+  border-radius: 12px;
+  padding: 30px;
+  margin: 20px auto;
+  width: 360px;
+  cursor: pointer;
+  background-color: #2a2a2a;
+  transition: 0.3s ease;
+}
+
+.drop-area.drag-active {
+  border-color: #4caf50;
+  background-color: #333;
+}
+
+.drop-area:hover {
+  border-color: #4caf50;
+  background-color: #333;
+}
+
+.preview-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:disabled {
+  background: #777;
+  cursor: not-allowed;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.result-img {
+  margin-top: 25px;
+}
+
+.result-img img {
+  width: 400px;
+  border-radius: 12px;
+  border: 2px solid #4caf50;
+}
+
+.navbar {
+  background: #222;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.nav-links a:hover {
+  color: #61dafb;
+}
